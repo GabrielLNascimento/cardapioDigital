@@ -1,0 +1,46 @@
+.homeContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    padding: 30px 0px 70px 0px;
+}
+
+.homeOptions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+}
+
+.btnContato {
+    margin: 0 auto;
+}
+
+.btnContato button {
+    background-color: #25d366;
+    border: none;
+    outline: none;
+    padding: 8px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all .2s;
+}
+
+.btnContato button:hover {
+    background-color: #1faa52;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8em;
+    margin: 0 auto;
+}

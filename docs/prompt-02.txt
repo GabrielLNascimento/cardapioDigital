@@ -1,0 +1,31 @@
+estou fazendo um projeto em react e quero criar um "formulario"
+na seguinte forma
+
+cada tela vai ter uma pergunta, com opções para escolher
+exemplo:
+    tela1
+        * quantos anos vc tem?
+            -> 18 - 24
+            -> 25 - 30
+            -> 31 - 40
+            -> 41 - 46
+            -> 47+
+        * tem que ter um botao de "continuar"
+    
+    tela2
+        * qual time vc torce?
+            -> flamengo
+            -> vasco
+            -> gremio
+            -> fluminense
+            -> cruzeiro
+        * tem que ter um botao de "continuar"
+
+Ao final das telas quero apenas que apareça as respostas que eu escolhi em uma outra tela
+
+Porem as perguntas eu quero q seja renderizado através de um arquivo JSON
+e conforme eu for avançando, vai trocando a tela junto com as perguntas
+
+Observações:
+- quero que as respostas sejam com checkbox, podendo escolher mais de uma resposta
+- quero q seja obrigado a selecionar algo pelo menos

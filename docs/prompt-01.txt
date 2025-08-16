@@ -1,0 +1,9 @@
+quero fazer um cardapio digital
+
+Tela principal -> Home
+    * Duas opções para escolher
+        - personalizar
+        - bolos prontos
+    
+Tela Personalizar
+    

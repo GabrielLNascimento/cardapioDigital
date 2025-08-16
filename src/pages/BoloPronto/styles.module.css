@@ -1,0 +1,74 @@
+.bolosContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+/* Item do bolo */
+.boloItem {
+    flex: 1 1 calc(33.33% - 10px);
+    padding: 5px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+/* Imagem do bolo */
+.boloItem img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 20px;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.boloItem img:hover {
+    transform: scale(1.05);
+}
+
+/* Overlay que aparece embaixo da imagem */
+.boloItem .overlay {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    width: 200px;
+    text-align: center;
+    padding: 8px 0;
+    margin-top: 5px;
+    border-radius: 10px;
+    opacity: 0;
+    transform: translateY(-5px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.boloItem:hover .overlay {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Responsividade: 2 colunas em telas pequenas */
+@media (max-width: 600px) {
+    .boloItem {
+        flex: 1 1 calc(50% - 10px);
+    }
+}
+
+.btnVoltar {
+    display: flex;
+    margin: 15px 0px 0px 15px;
+}
+
+.containerVerMais {
+    margin-top: 10px;
+}
+
+.btnVerMais {
+    color: #fff;
+    text-decoration: none;
+}
