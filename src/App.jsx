@@ -4,7 +4,7 @@ import { Route, Routes } from 'react-router-dom';
 // Pages
 import Home from './pages/Home/';
 import Personalizar from './pages/Personalizar';
-import BolosProntos from './pages/boloPronto';
+import BolosPronto from './pages/boloPronto';
 import BoloProntoInfo from './pages/BoloProntoInfo';
 
 const App = () => {
@@ -13,7 +13,7 @@ const App = () => {
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/personalizar" element={<Personalizar />} />
-                <Route path="/bolosprontos" element={<BolosProntos />} />
+                <Route path="/bolosprontos" element={<BolosPronto />} />
                 <Route path="/boloProntoInfo/:id" element={<BoloProntoInfo />} />
             </Routes>
         </div>

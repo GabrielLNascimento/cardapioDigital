@@ -5,9 +5,9 @@ import styles from './styles.module.css';
 import { ArrowBigLeft } from 'lucide-react';
 
 // components
-import Button from '../../components/Button';
+import Button from '../../components/Button/index.jsx';
 
-const BolosProntos = () => {
+const BoloPronto = () => {
     const [bolos, setBolos] = useState([]);
 
     useEffect(() => {
@@ -45,4 +45,4 @@ const BolosProntos = () => {
     );
 };
 
-export default BolosProntos;
+export default BoloPronto;
