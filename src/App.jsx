@@ -4,8 +4,8 @@ import { Route, Routes } from 'react-router-dom';
 // Pages
 import Home from './pages/Home/';
 import Personalizar from './pages/Personalizar';
-import BolosPronto from './pages/boloPronto';
 import BoloProntoInfo from './pages/BoloProntoInfo';
+import BoloPronto from './pages/BoloPronto';
 
 const App = () => {
     return (
@@ -13,7 +13,7 @@ const App = () => {
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/personalizar" element={<Personalizar />} />
-                <Route path="/bolosprontos" element={<BolosPronto />} />
+                <Route path="/bolosprontos" element={<BoloPronto />} />
                 <Route path="/boloProntoInfo/:id" element={<BoloProntoInfo />} />
             </Routes>
         </div>
